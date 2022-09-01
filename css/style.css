@@ -70,12 +70,15 @@ body {
 	margin-right: auto;
 }
 
-.header-conteiner {
-	display: flex;
+.header-section {
 	padding-top: 24px;
 	padding-bottom: 25px;
 	margin-bottom: 0;
 	border-bottom: 1px solid #ececec;
+}
+
+.header-conteiner {
+	display: flex;
 	align-items: center;
 }
 
@@ -134,7 +137,7 @@ body {
 	background-color: var(--back-color);
 }
 
-.hero-conteiner {
+.hero-section {
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
@@ -269,14 +272,12 @@ body {
 }
 
 /* Footer */
-.footer-conteiner {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	margin-bottom: 0;
-}
 
 .footer-section {
 	background-color: var(--back-color);
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin-bottom: 0;
 }
 
 .footer-nav {
@@ -314,7 +315,7 @@ body {
 	display: flex;
 	gap: 8px;
 	justify-content: center;
-	margin-bottom: 34px;
+	margin-bottom: 50px;
 }
 
 .filter-button {
